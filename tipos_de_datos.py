@@ -177,3 +177,5 @@ apellido_gonzalez=apellidos_dict.pop("gonzalez")
 """Sacar el valor de la llave "no_existe" del diccionario `apellidos_dict` y 
 guardarlo en la variable `apellido_none`.
 """
+apellido_none = apellidos_dict.get('GARCIA','None')
+print(apellido_none)
